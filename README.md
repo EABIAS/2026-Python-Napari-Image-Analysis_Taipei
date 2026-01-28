@@ -17,6 +17,11 @@
 - [EABIAS Group Photos](https://drive.google.com/drive/folders/1vn1grqSWkv-hkgmfQZmOGgwtpkPY4sZQ)
 - [EABIAS Logo](https://drive.google.com/file/d/1ZXpyQ1wKl0p66Bf5p46h6NAUWbigS1XV/view?usp=drive_link)
 
+## 環境建置
+- [15分鐘徹底搞懂！Anaconda Miniconda conda-forge miniforge Mamba](https://www.youtube.com/watch?v=-MSLJKjH8U0)
+- [Miniforge 安裝教學](https://www.youtube.com/watch?v=tzdFuxF2E3U)
+- [Miniforge on MAC 安裝教學](https://www.youtube.com/watch?v=5wM9HaJF9Eo)
+
 ## 推薦核心CC-BY 教材
 - [Robert Haase Bio-image Analysis Notebook](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
 - [Harvard BoBiAC](https://bobiac.github.io/bobiac-book/2025/landing-page.html)
