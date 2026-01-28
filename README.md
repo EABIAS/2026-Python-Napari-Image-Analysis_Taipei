@@ -25,7 +25,7 @@
 
 ## 推薦核心CC-BY 教材
 - [Robert Haase: Bio-image Analysis Notebook](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
-- [Robert Haase: Bio-image Data Science Lectures 2025 (注意v17才是最新版)](https://zenodo.org/records/15481680)
+- [Robert Haase: Bio-image Data Science Lectures 2025 slides(注意v17才是最新版)](https://zenodo.org/records/15481680), [exercise](https://github.com/ScaDS/BIDS-lecture-2025)
 - [Harvard BoBiAC](https://bobiac.github.io/bobiac-book/2025/landing-page.html)
 
 ## 其他推薦參考資料
