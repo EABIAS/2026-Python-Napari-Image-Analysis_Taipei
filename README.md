@@ -19,9 +19,14 @@
 
 ## 環境建置
 - [15分鐘徹底搞懂！Anaconda Miniconda conda-forge miniforge Mamba](https://www.youtube.com/watch?v=-MSLJKjH8U0)
+- [Getting started with Python: intro and set-up a conda environment](https://zenodo.org/records/13908480)
 - [Miniforge 安裝教學](https://www.youtube.com/watch?v=tzdFuxF2E3U)
 - [Miniforge on MAC 安裝教學](https://www.youtube.com/watch?v=5wM9HaJF9Eo)
 
 ## 推薦核心CC-BY 教材
-- [Robert Haase Bio-image Analysis Notebook](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
+- [Robert Haase: Bio-image Analysis Notebook](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
+- [Robert Haase: Bio-image Data Science Lectures 2025](https://zenodo.org/records/15481680)
 - [Harvard BoBiAC](https://bobiac.github.io/bobiac-book/2025/landing-page.html)
+
+## 其他推薦參考資料
+- [How to name files](https://www.youtube.com/watch?v=ES1LTlnpLMk)
