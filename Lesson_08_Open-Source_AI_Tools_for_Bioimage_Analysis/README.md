@@ -1,4 +1,4 @@
-# 🔬 開源生物影像分析工具課程 (Open Source Bioimage Analysis Tools)
+# 🔬 生物影像分析的開源AI工具課程
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Course Status](https://img.shields.io/badge/status-in_preparation-yellow.svg)]()
 [![Ask on image.sc](https://img.shields.io/badge/Ask%20on-image.sc-primary)](https://forum.image.sc/)
