@@ -5,24 +5,6 @@
 <!-- [![Course Status](https://img.shields.io/badge/status-coming_soon-blue.svg)]() -->
 <!-- [![Course Status](https://img.shields.io/badge/status-active-success.svg)]() -->
 
-本課程聚焦於解決生物學家在顯微影像分析中常見的痛點。  
-我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
-
----
-
-## 📚 目錄 (Table of Contents)
-
-- [課程簡介](#-課程簡介)
-- [工具列表](#-工具列表)
-  - [ilastik](#1-ilastik)
-  - [Cellpose](#2-cellpose-cellpose-sam)
-  - [micro-sam](#3-micro-sam)
-- [工具比較表](#-工具比較表)
-- [安裝與環境設定](#-安裝與環境設定)
-- [相關資源與文獻](#-相關資源與文獻)
-
----
-
 ## 🚀 課程簡介
 
 本課程聚焦於解決生物學家在顯微影像分析中常見的痛點。我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
