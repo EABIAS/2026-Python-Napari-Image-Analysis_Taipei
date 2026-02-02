@@ -1,1 +1,114 @@
+# 🔬 開源生物影像分析工具課程 (Open Source Bioimage Analysis Tools)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Course Status](https://img.shields.io/badge/status-in_preparation-yellow.svg)]()
+[![Ask on image.sc](https://img.shields.io/badge/Ask%20on-image.sc-primary)](https://forum.image.sc/)
+<!-- [![Course Status](https://img.shields.io/badge/status-coming_soon-blue.svg)]() -->
+<!-- [![Course Status](https://img.shields.io/badge/status-active-success.svg)]() -->
 
+本課程聚焦於解決生物學家在顯微影像分析中常見的痛點。  
+我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
+
+---
+
+## 📚 目錄 (Table of Contents)
+
+- [課程簡介](#-課程簡介)
+- [工具列表](#-工具列表)
+  - [ilastik](#1-ilastik)
+  - [Cellpose](#2-cellpose-cellpose-sam)
+  - [micro-sam](#3-micro-sam)
+- [工具比較表](#-工具比較表)
+- [安裝與環境設定](#-安裝與環境設定)
+- [相關資源與文獻](#-相關資源與文獻)
+
+---
+
+## 🚀 課程簡介
+
+本課程聚焦於解決生物學家在顯微影像分析中常見的痛點。我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
+
+1.  **ilastik**: 適合初學者的互動式機器學習平台。
+2.  **Cellpose (Cellpose-SAM)**: 結合 SAM 技術的通用細胞分割工具。
+3.  **micro-sam**: 針對顯微影像優化的 Segment Anything Model 工具。
+
+---
+
+## 🛠 工具列表
+
+### 1. [ilastik](https://www.ilastik.org/)
+> **"No code, just biology."** — 透過互動式標註訓練隨機森林 (Random Forest) 分類器。
+
+*   **核心功能**：
+    *   🎨 **像素分類 (Pixel Classification)**：基於顏色、紋理等特徵進行語意分割。
+    *   🦠 **物件分類 (Object Classification)**：從分割遮罩中提取特徵並對個體進行分類。
+    *   👣 **追蹤 (Tracking)**：支援 2D/3D 時序資料的自動化物件追蹤。
+    *   📊 **其他**：密度計數 (Counting)、邊界分割 (Boundary-based segmentation)。
+*   **特色**：完全圖形化介面 (GUI)，無需程式設計背景即可上手。
+
+### 2. [Cellpose](https://www.cellpose.org/) (Latest: Cellpose-SAM)
+> **"A generalist algorithm for cellular segmentation."** — 最新版本引入 SAM 技術以強化分割能力。
+
+*   **核心功能**：
+    *   🎯 **實例分割 (Instance Segmentation)**：精確區分並標記個別細胞，解決細胞沾黏問題。
+    *   🤖 **Cellpose-SAM**：結合 Segment Anything Model 的強大特徵提取能力，提供更通用的分割效果。
+    *   🤝 **人機協作 (Human-in-the-loop)**：支援使用少量標註資料 (500-1000 ROIs) 快速微調 (Fine-tuning) 模型。
+    *   🧊 **3D 支援**：原生支援三維堆疊影像 (Z-stacks) 處理。
+*   **特色**：泛化能力極強，大多情況無需調整參數，適用於多種細胞型態與顯微鏡類型。
+
+### 3. [micro-sam](https://github.com/computational-cell-analytics/micro-sam)
+> **"Segment Anything for Microscopy."** — 將 Meta 的 SAM 模型針對顯微影像進行微調與優化。
+
+*   **核心功能**：
+    *   🖱️ **互動式分割**：透過點擊 (Prompts) 或框選 (Bounding box) 實現即時分割。
+    *   🤖 **自動分割 (Automatic Segmentation)**：支援批次處理大量影像。
+    *   🔬 **專用模型**：提供針對光學顯微鏡 (LM) 與電子顯微鏡 (EM) 優化的通用模型。
+    *   🖥️ **napari 整合**：作為 napari plugin 運行，介面友善且擴充性高。
+    *   ⏱️ **追蹤功能**：支援 2D 時序資料的物件追蹤。
+*   **特色**：結合視覺基礎模型 (Vision Foundation Model) 的強大零樣本 (Zero-shot) 遷移能力。
+
+---
+
+## ⚖️ 工具比較表
+
+| 特性 | ilastik | Cellpose (Cellpose-SAM) | micro-sam |
+| :--- | :---: | :---: | :---: |
+| **核心技術** | 隨機森林 (ML) | 深度學習 (SAM-based) | 深度學習 (Transformer based) |
+| **學習曲線** | 🟢 低 (GUI) | 🟢 低 (Standalone GUI) | 🟢 低 (napari GUI) |
+| **互動式標註** | ✅ 強大 | ✅ 支援 | ✅ 強大 (Prompting) |
+| **預訓練模型** | ❌ (需自行訓練) | ✅ (通用模型) | ✅ (LM/EM 通用) |
+| **3D 支援** | ✅ | ✅ | ✅ |
+| **追蹤功能** | ✅ | ❌ (需搭配其他工具) | ✅ |
+| **最佳適用場景** | 紋理明顯、背景複雜的影像 | 細胞密集、型態多樣的細胞/核 | 未知樣本、需要快速標註輔助 |
+
+---
+
+## 💻 安裝與環境設定
+
+⚠️ **注意事項**：建議在課程開始前，先完成軟體安裝。
+
+詳細安裝步驟請參考官方文件：
+
+*   **ilastik**: [📥 下載與安裝指南](https://www.ilastik.org/download.html) (提供 Windows/Mac/Linux 執行檔)
+*   **Cellpose**: [🐍 Python/GUI 安裝指南](https://github.com/MouseLand/cellpose) (建議建立獨立 Conda 環境)
+*   **micro-sam**: [🔌 napari plugin 安裝指南](https://github.com/computational-cell-analytics/micro-sam#installation) (建議建立獨立 Conda 環境)
+
+---
+
+## 📖 相關資源與文獻
+
+### 課程教材
+*   📂 [課程投影片 (Slides)](./slides) *(待補充)*
+*   💾 [範例資料集 (Example Data)](./data) *(待補充)*
+*   📓 [Jupyter Notebooks](./notebooks) *(待補充)*
+
+### 延伸閱讀
+1.  **ilastik**: Berg, S., et al. (2019). [ilastik: interactive machine learning for (bio)image analysis.](https://www.nature.com/articles/s41592-019-0582-9) *Nature Methods*.
+2.  **Cellpose 1.0**: Stringer, C., et al. (2021). [Cellpose: a generalist algorithm for cellular segmentation.](https://www.nature.com/articles/s41592-020-01018-x) *Nature Methods*.
+3.  **Cellpose 2.0**: Pachitariu, M. & Stringer, C. (2022). [Cellpose 2.0: how to train your own model.](https://www.nature.com/articles/s41592-022-01663-4) *Nature Methods*.
+4.  **micro-sam**: Archit, A., et al. (2024). [Segment Anything for Microscopy.](https://www.nature.com/articles/s41592-024-02580-4) *Nature Methods*.
+
+---
+
+<p align="center">
+  <sub>Created for the Bioimage Analysis Course. Maintainer: [Your Name/Organization]</sub>
+</p>
