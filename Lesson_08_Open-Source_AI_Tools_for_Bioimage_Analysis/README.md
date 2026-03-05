@@ -1,4 +1,4 @@
-# 🔬 生物影像分析的開源AI工具課程
+# 🔬 生物影像分析的開源AI工具課程 (準備中)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Course Status](https://img.shields.io/badge/status-in_preparation-yellow.svg)]()
 [![Ask on image.sc](https://img.shields.io/badge/Ask%20on-image.sc-primary)](https://forum.image.sc/)
@@ -7,7 +7,7 @@
 
 ## 🚀 課程簡介
 
-本課程聚焦於解決生物學家在顯微影像分析中常見的痛點。我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
+本課程聚焦於解決生物學家在影像分析中常見的影像分割問題。我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
 
 1.  **ilastik**: 適合初學者的互動式機器學習平台。
 2.  **Cellpose (Cellpose-SAM)**: 結合 SAM 技術的通用細胞分割工具。
@@ -21,10 +21,8 @@
 > **"No code, just biology."** — 透過互動式標註訓練隨機森林 (Random Forest) 分類器。
 
 *   **核心功能**：
-    *   **像素分類 (Pixel Classification)**：基於顏色、紋理等特徵進行語意分割。
+    *   **像素分類 (Pixel Classification)**：基於顏色、紋理等特徵進行語意分割 (semantic segmentation)。
     *   **物件分類 (Object Classification)**：從分割遮罩中提取特徵並對個體進行分類。
-    *   **追蹤 (Tracking)**：支援 2D/3D 時序資料的自動化物件追蹤。
-    *   **其他**：密度計數 (Counting)、邊界分割 (Boundary-based segmentation)。
 *   **特色**：完全圖形化介面 (GUI)，無需程式設計背景即可上手。
 
 ### 2. [Cellpose](https://www.cellpose.org/) (Latest: Cellpose-SAM)
@@ -33,7 +31,7 @@
 *   **核心功能**：
     *   **實例分割 (Instance Segmentation)**：精確區分並標記個別細胞，解決細胞沾黏問題。
     *   **Cellpose-SAM**：結合 Segment Anything Model 的強大特徵提取能力，提供更通用的分割效果。
-    *   **人機協作 (Human-in-the-loop)**：支援使用少量標註資料 (500-1000 ROIs) 快速微調 (Fine-tuning) 模型。
+    *   **人機協作訓練微調 (Human-in-the-loop training)**：支援使用少量標註資料 (500-1000 ROIs) 快速微調 (Fine-tuning) 模型。
     *   **3D 支援**：原生支援三維堆疊影像 (Z-stacks) 處理。
 *   **特色**：泛化能力極強，大多情況無需調整參數，適用於多種細胞型態與顯微鏡類型。
 
@@ -54,7 +52,7 @@
 
 | 特性 | ilastik | Cellpose (Cellpose-SAM) | micro-sam |
 | :--- | :---: | :---: | :---: |
-| **核心技術** | 隨機森林 (ML) | 深度學習 (SAM-based) | 深度學習 (Transformer based) |
+| **核心技術** | 隨機森林 (ML) | 深度學習 | 深度學習 |
 | **學習曲線** | 🟢 低 (GUI) | 🟢 低 (Standalone GUI) | 🟢 低 (napari GUI) |
 | **互動式標註** | ✅ 強大 | ✅ 支援 | ✅ 強大 (Prompting) |
 | **預訓練模型** | ❌ (需自行訓練) | ✅ (通用模型) | ✅ (LM/EM 通用) |
