@@ -5,6 +5,12 @@
 <!-- [![Course Status](https://img.shields.io/badge/status-coming_soon-blue.svg)]() -->
 <!-- [![Course Status](https://img.shields.io/badge/status-active-success.svg)]() -->
 
+
+## 課前準備:
+1. 請先下載[Installation_steps.pdf](Installation_steps.pdf)並依循步驟安裝課程需要的軟體。
+2. 請下載[Test_Img_Cellpose.zip](Test_Img_Cellpose.zip) 及 [Test_Img_BBBC039_Subset.zip](Test_Img_BBBC039_Subset.zip)這兩份測試用影像
+3. 細節課堂會解說, 但是鼓勵大家先自己玩看看。
+
 ## 🚀 課程簡介
 
 本課程聚焦於解決生物學家在影像分析中常見的影像分割問題。我們精選了三款強大的開源軟體，涵蓋了傳統機器學習與最新的深度學習技術：
