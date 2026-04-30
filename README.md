@@ -1,5 +1,11 @@
 # 2026-Python-Napari-Image-Analysis_Taipei
 
+課前準備:
+1. 請先下載[Installation_steps.pdf](Installation_steps.pdf)並依循步驟安裝課程需要的軟體。
+2. 請下載[Test_Img_Cellpose.zip](Test_Img_Cellpose.zip) 及 [Test_Img_BBBC039_Subset.zip](Test_Img_BBBC039_Subset.zip)這兩份測試用影像
+3. 細節課堂會解說, 但是鼓勵大家先自己玩看看。
+
+
 📅 課程時程與地點
 課程日期： 2026/3/9 至 2026/5/4（每週一，共 8 堂） 
 
