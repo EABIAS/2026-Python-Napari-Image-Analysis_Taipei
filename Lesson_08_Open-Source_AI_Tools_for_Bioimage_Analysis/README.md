@@ -16,7 +16,8 @@
 ## 課前準備:
 1. 請先下載[Installation_steps.pdf](Installation_steps.pdf)並依循步驟安裝課程需要的軟體。
 2. 請下載[Test_Img_Cellpose.zip](Test_Img_Cellpose.zip) 及 [Test_Img_BBBC039_Subset.zip](Test_Img_BBBC039_Subset.zip)這兩份測試用影像
-3. 細節課堂會解說, 但是鼓勵大家先自己玩看看。
+3. 課程講義先提供PDF版: Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf, 完整的PowerPoint會當天開放下載。
+4. 細節課堂會解說, 但是鼓勵大家先自己玩看看。
 
 ---
 
