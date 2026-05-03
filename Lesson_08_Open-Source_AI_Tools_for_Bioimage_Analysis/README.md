@@ -1,8 +1,7 @@
 # 生物影像分析的開源AI工具課程 (準備中)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Course Status](https://img.shields.io/badge/status-in_preparation-yellow.svg)]()
-[![Ask on image.sc](https://img.shields.io/badge/Ask%20on-image.sc-primary)](https://forum.image.sc/)
-<!-- [![Course Status](https://img.shields.io/badge/status-coming_soon-blue.svg)]() -->
+[![Course Status](https://img.shields.io/badge/status-coming_soon-blue.svg)]()
+
 <!-- [![Course Status](https://img.shields.io/badge/status-active-success.svg)]() -->
 
 ##  課程簡介
@@ -15,8 +14,8 @@
 
 ## 課前準備:
 1. 請先下載[Installation_steps.pdf](Installation_steps.pdf)並依循步驟安裝課程需要的軟體。
-2. 請下載[Test_Img_Cellpose.zip](Test_Img_Cellpose.zip) 及 [Test_Img_BBBC039_Subset.zip](Test_Img_BBBC039_Subset.zip)這兩份測試用影像
-3. 課程講義先提供PDF版: [Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf](Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf), 完整的PowerPoint會當天開放下載。
+2. 請下載 [Test_Img_Cellpose.zip](Test_Img_Cellpose.zip), [Test_Img_BBBC039_Subset.zip](Test_Img_BBBC039_Subset.zip), [Test_Img_Human_Mitosis.zip](Test_Img_Human_Mitosis.zip) 這三份測試用影像。
+3. 課程講義先提供PDF版: [Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf](Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf), 完整的PowerPoint當天會開放下載。
 4. 細節課堂會解說, 但是鼓勵大家先自己玩看看, 特別是第一次在本地端執行Cellpose的時候會被背景會下載 cpsam model (約1.15 G), 會花不少時間下載。
 
 ---
@@ -58,10 +57,9 @@
 
 | 特性 | ilastik | Cellpose (Cellpose-SAM) | micro-sam |
 | :--- | :---: | :---: | :---: |
-| **核心技術** | 隨機森林 (ML) | 深度學習 | 深度學習 |
+| **核心技術** | 機械學習 | 深度學習 | 深度學習 |
 | **學習曲線** | 🟢 低 (GUI) | 🟢 低 (Standalone GUI) | 🟢 低 (napari GUI) |
 | **互動式標註** | ✅ 強大 | ✅ 支援 | ✅ 強大 (Prompting) |
-| **預訓練模型** | ❌ (需自行訓練) | ✅ (通用模型) | ✅ (LM/EM 通用) |
 | **3D 支援** | ✅ | ✅ | ✅ |
 | **追蹤功能** | ✅ | ❌ (需搭配其他工具) | ✅ |
 | **最佳適用場景** | 紋理明顯、背景複雜的影像 | 細胞密集、型態多樣的細胞/核 | 未知樣本、需要快速標註輔助 |
