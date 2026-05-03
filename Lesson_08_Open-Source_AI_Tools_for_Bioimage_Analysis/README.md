@@ -18,6 +18,8 @@
 3. 課程講義先提供PDF版: [Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf](Practical_AI_Tools_for_Bioimage_Segmentation_V1.pdf), 完整的PowerPoint當天會開放下載。
 4. 細節課堂會解說, 但是鼓勵大家先自己玩看看, 特別是第一次在本地端執行Cellpose的時候會被背景會下載 cpsam model (約1.15 G), 會花不少時間下載。
 
+## (5/4開放) 完整PowerPoint檔案下載, 請按右方連結 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19911180.svg)](https://doi.org/10.5281/zenodo.19911180)
+
 ---
 
 ## 工具列表
