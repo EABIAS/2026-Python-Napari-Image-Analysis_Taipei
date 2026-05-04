@@ -1,4 +1,4 @@
-# 生物影像分析的開源AI工具課程 (準備中)
+# 用於生物影像分割的實用 AI 工具 (Practical AI Tools for Bioimage Segmentation)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Course Status](https://img.shields.io/badge/status-coming_soon-blue.svg)]()
 
